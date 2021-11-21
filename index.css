@@ -1,0 +1,43 @@
+h1{
+    color: cornsilk;
+    background: rgb(56, 170, 204);
+    font-weight: 200;
+    font-style: normal;
+    
+}
+*{
+    margin: 20;
+    padding: 20;
+}
+h2{
+    color: rgb(74, 190, 211);
+    background-color: rgb(209, 235, 241);
+    font-weight: bolder;
+    text-transform: capitalize;
+     text-decoration: underline;
+}
+body{
+    background: linear-gradient(90deg , rgb(205, 250, 246) ,  white);
+    
+}
+table{
+    text-align: center;
+    text-shadow: red;
+    border: 0 px solid #000000;
+    border-top: 0px solid #000000;
+    border-spacing: 0px;
+    
+}
+
+tr:nth-child(3n){
+    background-color: rgb(110, 188, 206);;
+    
+}
+tr:nth-child(3n+1){
+    background-color: rgb(168, 221, 233);;
+    
+}
+tr:nth-child(3n+2){
+    background-color: rgb(190, 210, 214);;
+    
+}
